@@ -32,9 +32,5 @@ def mul_route():
     result = multiplication(num1, num2)
     return str(result)
 
-@app.route("/")
-def render_index_page():
-    # Write your code here
-    
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
